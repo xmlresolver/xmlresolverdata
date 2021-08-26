@@ -1,0 +1,25 @@
+plugins {
+  id 'com.nwalsh.gradle.saxon.saxon-gradle' version '0.9.3'
+}
+
+import com.nwalsh.gradle.saxon.SaxonXsltTask
+
+task copy_data(type: Copy) {
+  into "${buildDir}/xmlresolverdata-${version}"
+  from ("${projectDir}/src/data") {
+    exclude "manifest.xml"
+  }
+}
+
+task make_data_catalog(type: SaxonXsltTask, dependsOn: ["copy_data"]) {
+  input "${projectDir}/src/data/manifest.xml"
+  output "${buildDir}/xmlresolverdata-${version}/catalog.xml"
+  stylesheet "${projectDir}/tools/make-catalog.xsl"
+}
+
+task dist(type: Zip, dependsOn: ["make_data_catalog"]) {
+  from("$buildDir")
+  exclude(["dist"])
+  destinationDirectory = file("${buildDir}/dist")
+  archiveFileName = "xmlresolverdata-${relVersion}.zip"
+}
