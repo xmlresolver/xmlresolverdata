@@ -1285,4 +1285,7 @@
   <entry uri="root/www.w3.org/TR/xslt-30/xml-to-json.xsl">
     <uri>https://www.w3.org/TR/xslt-30/xml-to-json.xsl</uri>
   </entry>
+  <entry uri="root/www.w3.org/2007/schema-for-xslt20.xsd">
+    <uri>https://www.w3.org/2007/schema-for-xslt20.xsd</uri>
+  </entry>
 </manifest>
