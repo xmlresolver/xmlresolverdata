@@ -105,11 +105,12 @@
     <system>http://www.rddl.org/xhtml-symbol.ent</system>
   </entry>
   <entry uri="root/www.w3.org/1999/xlink.xsd">
-    <namespace>https://www.w3.org/1999/xlink</namespace>
     <uri>https://www.w3.org/1999/xlink.xsd</uri>
+    <namespace>https://www.w3.org/1999/xlink</namespace>
+    <purpose>http://www.rddl.org/purposes#validation</purpose>
+    <nature>http://www.w3.org/2001/XMLSchema</nature>
   </entry>
   <entry uri="root/www.w3.org/XML/2008/06/xlink.xsd">
-    <namespace>https://www.w3.org/1999/xlink</namespace>
     <uri>https://www.w3.org/XML/2008/06/xlink.xsd</uri>
   </entry>
   <entry uri="root/www.w3.org/2001/XMLSchema.dtd">
@@ -118,6 +119,9 @@
   </entry>
   <entry uri="root/www.w3.org/2001/XMLSchema.xsd">
     <uri>https://www.w3.org/2001/XMLSchema.xsd</uri>
+    <namespace>http://www.w3.org/2001/XMLSchema</namespace>
+    <purpose>http://www.rddl.org/purposes#validation</purpose>
+    <nature>http://www.w3.org/2001/XMLSchema</nature>
   </entry>
   <entry uri="root/www.w3.org/2001/datatypes.xsd">
     <public>-//W3C//DTD XSD 1.0 Datatypes//EN</public>
@@ -125,8 +129,10 @@
     <system>https://www.w3.org/2001/datatypes.xsd</system>
   </entry>
   <entry uri="root/www.w3.org/2001/xml.xsd">
-    <namespace>https://www.w3.org/XML/1998/namespace</namespace>
     <uri>https://www.w3.org/2001/xml.xsd</uri>
+    <namespace>https://www.w3.org/XML/1998/namespace</namespace>
+    <purpose>http://www.rddl.org/purposes#validation</purpose>
+    <nature>http://www.w3.org/2001/XMLSchema</nature>
   </entry>
   <entry uri="root/www.w3.org/2002/xmlspec/dtd/2.10/xmlspec.dtd">
     <public>-//W3C//DTD Specification V2.10//EN</public>
