@@ -2,6 +2,8 @@ plugins {
   id 'com.nwalsh.gradle.saxon.saxon-gradle' version '0.9.3'
 }
 
+defaultTasks 'dist'
+
 import com.nwalsh.gradle.saxon.SaxonXsltTask
 
 task copy_data(type: Copy) {
