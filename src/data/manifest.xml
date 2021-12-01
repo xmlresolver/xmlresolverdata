@@ -1294,4 +1294,30 @@
   <entry uri="root/www.w3.org/2007/schema-for-xslt20.xsd">
     <uri>https://www.w3.org/2007/schema-for-xslt20.xsd</uri>
   </entry>
+  <entry uri="root/xmlcatalogs.org/schema/1.1/catalog.xsd">
+    <uri>https://xmlcatalogs.org/schema/1.1/catalog.xsd</uri>
+    <uri>http://www.oasis-open.org/committees/entity/release/1.1/catalog.xsd</uri>
+    <namespace>urn:oasis:names:tc:entity:xmlns:tr9401:catalog</namespace>
+    <purpose>http://www.rddl.org/purposes#validation</purpose>
+    <nature>http://www.w3.org/2001/XMLSchema</nature>
+  </entry>
+  <entry uri="root/xmlcatalogs.org/schema/1.1/catalog.rnc">
+    <uri>https://xmlcatalogs.org/schema/1.1/catalog.rnc</uri>
+  </entry>
+  <entry uri="root/xmlcatalogs.org/schema/1.1/catalog.rng">
+    <uri>https://xmlcatalogs.org/schema/1.1/catalog.rng</uri>
+    <uri>http://www.oasis-open.org/committees/entity/release/1.1/catalog.rng</uri>
+    <namespace>urn:oasis:names:tc:entity:xmlns:tr9401:catalog</namespace>
+    <purpose>http://www.rddl.org/purposes#validation</purpose>
+    <nature>http://relaxng.org/ns/structure/1.0</nature>
+  </entry>
+  <entry uri="root/xmlcatalogs.org/schema/1.1/catalog.dtd">
+    <public>-//OASIS//DTD XML Catalogs V1.1//EN</public>
+    <uri>https://xmlcatalogs.org/schema/1.1/catalog.dtd</uri>
+    <uri>http://www.oasis-open.org/committees/entity/release/1.1/catalog.dtd</uri>
+    <namespace>urn:oasis:names:tc:entity:xmlns:tr9401:catalog</namespace>
+    <purpose>http://www.rddl.org/purposes#validation</purpose>
+    <nature>http://www.isi.edu/in-notes/iana/assignments/media-types/application/xml-dtd</nature>
+    <nature>https://www.iana.org/assignments/media-types/application/xml-dtd</nature>
+  </entry>
 </manifest>
