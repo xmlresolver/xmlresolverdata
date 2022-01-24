@@ -8,6 +8,8 @@ defaultTasks 'dist'
 import com.nwalsh.gradle.saxon.SaxonXsltTask
 import com.nwalsh.gradle.relaxng.validate.RelaxNGValidateTask
 
+def FS = System.getProperty("file.separator");
+
 task copy_data(type: Copy) {
   into "${buildDir}/xmlresolverdata-${version}"
   from ("${projectDir}/src/data") {
@@ -33,7 +35,7 @@ task validate(dependsOn: ["make_data_catalog"]) {
 
 make_data_catalog.outputs.files.each { xml ->
   def fn = xml.toString()
-  def pos = fn.lastIndexOf("/")
+  def pos = fn.lastIndexOf(FS)
   fn = fn.substring(pos+1)
   Task t = project.task("validate_${fn}", type: RelaxNGValidateTask) {
     dependsOn "make_data_catalog"
