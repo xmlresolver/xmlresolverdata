@@ -46,9 +46,14 @@ make_data_catalog.outputs.files.each { xml ->
   validate.dependsOn(t)
 }
 
-task dist(type: Zip, dependsOn: ["make_data_catalog", "validate"]) {
+task copyNotices(type: Copy) {
+  from "${projectDir}/src/notices"
+  into "${buildDir}/xmlresolverdata-${version}/notices"
+}
+
+task dist(type: Zip, dependsOn: ["make_data_catalog", "validate", "copyNotices"]) {
   from("$buildDir")
-  exclude(["dist"])
+  exclude(["dist", "validated"])
   destinationDirectory = file("${buildDir}/dist")
   archiveFileName = "xmlresolverdata-${relVersion}.zip"
 }
