@@ -1320,4 +1320,7 @@
     <nature>http://www.isi.edu/in-notes/iana/assignments/media-types/application/xml-dtd</nature>
     <nature>https://www.iana.org/assignments/media-types/application/xml-dtd</nature>
   </entry>
+  <entry uri="root/xmlresolver.org/data/resolver/succeeded/test/check.xml">
+    <uri>https://xmlresolver.org/data/resolver/succeeded/test/check.xml</uri>
+  </entry>
 </manifest>
