@@ -41,7 +41,7 @@ make_data_catalog.outputs.files.each { xml ->
     dependsOn "make_data_catalog"
     input xml
     output "${buildDir}/validated/${fn}"
-    schema "src/data/xmlcatalogs.org/schema/1.1/catalog.rng"
+    schema "${projectDir}/src/data/xmlcatalogs.org/schema/1.1/catalog.rng"
   }
   validate.dependsOn(t)
 }
