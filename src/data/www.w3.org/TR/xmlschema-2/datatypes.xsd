@@ -35,7 +35,6 @@
         <!ATTLIST xs:union id ID #IMPLIED>
         ]>
 
-<?xml version='1.0'?>
 <xs:schema xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
            xmlns:xs="http://www.w3.org/2001/XMLSchema" blockDefault="#all"
            elementFormDefault="qualified" xml:lang="en"
@@ -1114,4 +1113,3 @@
     </xs:complexType>
   </xs:element>
 </xs:schema>
-

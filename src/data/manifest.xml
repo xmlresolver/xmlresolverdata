@@ -123,10 +123,10 @@
     <purpose>http://www.rddl.org/purposes#validation</purpose>
     <nature>http://www.w3.org/2001/XMLSchema</nature>
   </entry>
-  <entry uri="root/www.w3.org/2001/datatypes.xsd">
+  <entry uri="root/www.w3.org/2001/datatypes.dtd">
     <public>-//W3C//DTD XSD 1.0 Datatypes//EN</public>
     <public>datatypes</public>
-    <system>https://www.w3.org/2001/datatypes.xsd</system>
+    <system>https://www.w3.org/2001/datatypes.dtd</system>
   </entry>
   <entry uri="root/www.w3.org/2001/xml.xsd">
     <uri>https://www.w3.org/2001/xml.xsd</uri>
@@ -349,10 +349,14 @@
   <entry uri="root/www.w3.org/2009/XMLSchema/XMLSchema.dtd">
     <public>-//W3C//DTD XSD 1.1//EN</public>
     <system>https://www.w3.org/2009/XMLSchema/XMLSchema.dtd</system>
+    <system>https://www.w3.org/TR/xmlschema11-1/XMLSchema.dtd</system>
+    <system>https://www.w3.org/TR/xmlschema11-2/XMLSchema.dtd</system>
   </entry>
-  <entry uri="root/www.w3.org/2009/XMLSchema/datatypes.xsd">
+  <entry uri="root/www.w3.org/2009/XMLSchema/datatypes.dtd">
     <public>-//W3C//DTD XSD 1.1 Datatypes//EN</public>
-    <system>https://www.w3.org/2009/XMLSchema/datatypes.xsd</system>
+    <system>https://www.w3.org/2009/XMLSchema/datatypes.dtd</system>
+    <system>https://www.w3.org/TR/xmlschema11-1/datatypes.dtd</system>
+    <system>https://www.w3.org/TR/xmlschema11-2/datatypes.dtd</system>
   </entry>
   <entry uri="root/www.w3.org/Graphics/SVG/1.1/DTD/svg-animation.mod">
     <public>-//W3C//ELEMENTS SVG 1.1 Animation//EN</public>
