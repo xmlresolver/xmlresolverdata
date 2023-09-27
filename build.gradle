@@ -57,3 +57,7 @@ task dist(type: Zip, dependsOn: ["make_data_catalog", "validate", "copyNotices"]
   destinationDirectory = file("${buildDir}/dist")
   archiveFileName = "xmlresolverdata-${relVersion}.zip"
 }
+
+task clean() {
+  delete buildDir
+}
