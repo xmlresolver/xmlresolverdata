@@ -32,7 +32,11 @@
                     catalog="cat-xhtml.xml"/>
     <delegateSystem systemIdStartString="https://www.w3.org/MarkUp/DTD/xhtml"
                     catalog="cat-xhtml.xml"/>
+    <delegateSystem systemIdStartString="http://www.w3.org/MarkUp/DTD/xhtml"
+                    catalog="cat-xhtml.xml"/>
     <delegateSystem systemIdStartString="https://www.w3.org/TR/xhtml"
+                    catalog="cat-xhtml.xml"/>
+    <delegateSystem systemIdStartString="http://www.w3.org/TR/xhtml"
                     catalog="cat-xhtml.xml"/>
   </xsl:variable>
 
@@ -65,6 +69,8 @@
     <delegatePublic publicIdStartString="-//W3C//DTD SVG"
                     catalog="cat-svg.xml"/>
     <delegateSystem systemIdStartString="https://www.w3.org/Graphics/SVG/1.1/"
+                    catalog="cat-svg.xml"/>
+    <delegateSystem systemIdStartString="http://www.w3.org/Graphics/SVG/1.1/"
                     catalog="cat-svg.xml"/>
   </xsl:variable>
 
@@ -101,7 +107,11 @@
                     catalog="cat-entities.xml"/>
     <delegateSystem systemIdStartString="https://www.w3.org/2003/entities/"
                     catalog="cat-entities.xml"/>
+    <delegateSystem systemIdStartString="http://www.w3.org/2003/entities/"
+                    catalog="cat-entities.xml"/>
     <delegateSystem systemIdStartString="https://www.w3.org/Math/DTD/mathml1/"
+                    catalog="cat-entities.xml"/>
+    <delegateSystem systemIdStartString="http://www.w3.org/Math/DTD/mathml1/"
                     catalog="cat-entities.xml"/>
   </xsl:variable>
 
@@ -128,6 +138,8 @@
     <xsl:sequence select="$prefix"/>
     <delegateSystem systemIdStartString="https://www.w3.org/Math/DTD/mathml2/"
                     catalog="cat-mathml2.xml"/>
+    <delegateSystem systemIdStartString="http://www.w3.org/Math/DTD/mathml2/"
+                    catalog="cat-mathml2.xml"/>
   </xsl:variable>
 
   <xsl:variable name="subset"
@@ -146,6 +158,8 @@
   <xsl:variable name="prefix" as="node()*">
     <xsl:sequence select="$prefix"/>
     <delegateSystem systemIdStartString="https://www.w3.org/Math/DTD/mathml3/"
+                    catalog="cat-mathml3.xml"/>
+    <delegateSystem systemIdStartString="http://www.w3.org/Math/DTD/mathml3/"
                     catalog="cat-mathml3.xml"/>
   </xsl:variable>
 
@@ -167,6 +181,8 @@
     <xsl:text>&#10;</xsl:text>
     <xsl:comment> At present, only the RDDL public identifiers begin with -//XML-DEV// </xsl:comment>
     <delegatePublic publicIdStartString="-//XML-DEV//"
+                    catalog="cat-rddl.xml"/>
+    <delegateSystem systemIdStartString="https://www.rddl.org/"
                     catalog="cat-rddl.xml"/>
     <delegateSystem systemIdStartString="http://www.rddl.org/"
                     catalog="cat-rddl.xml"/>
