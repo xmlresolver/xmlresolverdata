@@ -8,7 +8,16 @@ For the Java release, these files and an associated catalog are in the
 `xmlresolver` jar file with the `data` classifier.
 
 For the C# release, these files and an associated catalog are in the
-`XmlResolverData` assembly. (At least that’s the current plan.)
+`XmlResolverData` assembly.
 
 This repository is used as a subproject in the Java and C# repositories.
 
+## Change Log
+
+### January 2024
+
+* Corrected an incorrect public identifier for `https://www.w3.org/2001/datatypes.dtd` in
+  the manifest.
+* Corrected the system identifiers for the XML Catalogs V1.1 DTD. (They were incorrectly
+  recorded as `uri` elements in the manifest where `system` was required.)
+* Bumped version to 6.0.0 to align with the refactored Java and C# resolvers
