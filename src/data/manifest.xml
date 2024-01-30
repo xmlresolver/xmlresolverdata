@@ -125,7 +125,6 @@
   </entry>
   <entry uri="root/www.w3.org/2001/datatypes.dtd">
     <public>-//W3C//DTD XSD 1.0 Datatypes//EN</public>
-    <public>datatypes</public>
     <system>https://www.w3.org/2001/datatypes.dtd</system>
   </entry>
   <entry uri="root/www.w3.org/2001/xml.xsd">
@@ -1317,11 +1316,10 @@
   </entry>
   <entry uri="root/xmlcatalogs.org/schema/1.1/catalog.dtd">
     <public>-//OASIS//DTD XML Catalogs V1.1//EN</public>
-    <uri>https://xmlcatalogs.org/schema/1.1/catalog.dtd</uri>
-    <uri>http://www.oasis-open.org/committees/entity/release/1.1/catalog.dtd</uri>
+    <system>https://xmlcatalogs.org/schema/1.1/catalog.dtd</system>
+    <system>http://www.oasis-open.org/committees/entity/release/1.1/catalog.dtd</system>
     <namespace>urn:oasis:names:tc:entity:xmlns:xml:catalog</namespace>
     <purpose>http://www.rddl.org/purposes#validation</purpose>
-    <nature>http://www.isi.edu/in-notes/iana/assignments/media-types/application/xml-dtd</nature>
     <nature>https://www.iana.org/assignments/media-types/application/xml-dtd</nature>
   </entry>
   <entry uri="root/xmlresolver.org/data/resolver/succeeded/test/check.xml">
