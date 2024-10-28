@@ -14,6 +14,10 @@ This repository is used as a subproject in the Java and C# repositories.
 
 ## Change Log
 
+### October 2024
+
+* Added XML DSig schemas. Thanks @dizzz
+
 ### January 2024
 
 * Corrected an incorrect public identifier for `https://www.w3.org/2001/datatypes.dtd` in
