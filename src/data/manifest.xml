@@ -104,6 +104,15 @@
   <entry uri="root/www.rddl.org/xhtml-symbol.ent">
     <system>http://www.rddl.org/xhtml-symbol.ent</system>
   </entry>
+  <entry uri="root/www.w3.org/2000/09/xmldsig-core-schema.xsd">
+    <uri>http://www.w3.org/2000/09/xmldsig#</uri>
+  </entry>
+  <entry uri="root/www.w3.org/2009/xmldsig11-schema.xsd">
+    <uri>http://www.w3.org/2009/xmldsig11#</uri>
+  </entry>
+  <entry uri="root/www.w3.org/2010/xmldsig2-schema.xsd">
+    <uri>http://www.w3.org/2010/xmldsig2#</uri>
+  </entry>
   <entry uri="root/www.w3.org/1999/xlink.xsd">
     <uri>https://www.w3.org/1999/xlink.xsd</uri>
     <namespace>https://www.w3.org/1999/xlink</namespace>
