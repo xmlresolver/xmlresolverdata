@@ -16,7 +16,7 @@ This repository is used as a subproject in the Java and C# repositories.
 
 ### October 2024
 
-* Added XML DSig schemas. Thanks @dizzz
+* Added XML DSig schemas. Thanks @dizzzz
 
 ### January 2024
 
